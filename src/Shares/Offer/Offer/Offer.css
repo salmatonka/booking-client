@@ -1,0 +1,40 @@
+.offer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.offerItem{
+   position: relative;
+   color: white;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+}
+.offerTitles{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+.offerImg{
+    width: 100%;
+    object-fit: cover;
+}
+.offerTitles>h3{
+    font-size: 25px;
+}
+.offerTitles>p{
+    font-size: 18px;
+    font-weight: 150;
+}
+button{
+    height: 40px;
+    width: 180px;
+     border:1px solid white;
+   
+    /* cursor: pointer; */
+    background-color: #193948;
+}

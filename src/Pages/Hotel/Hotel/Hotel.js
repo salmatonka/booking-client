@@ -8,6 +8,8 @@ import { HiLocationMarker } from 'react-icons/hi';
 import { BsFillArrowLeftCircleFill} from 'react-icons/bs';
 import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 import {AiFillCloseCircle} from 'react-icons/ai';
+import Guest from '../../../Shares/Guest/Guest/Guest';
+import FaqMusk from '../../../Shares/FaqMusk/FaqMusk/FaqMusk';
 // import { handler } from 'daisyui';
 const Hotel = () => {
     const [sliderNumber, setSliderNumber] = useState(0);
@@ -15,22 +17,31 @@ const Hotel = () => {
     
     const photos =[
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+            src: "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/2000000/1580000/1571900/1571851/5190220c_b.jpg"
         },
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+            src: "https://images.trvl-media.com/hotels/9000000/8020000/8011500/8011429/0d465754.jpg?impolicy=resizecrop&rw=455&ra=fit"
         },
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+            src: "https://images.trvl-media.com/hotels/73000000/72940000/72939100/72939089/91d9b2c4.jpg?impolicy=resizecrop&rw=455&ra=fit"
         },
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+            src: "https://images.trvl-media.com/hotels/1000000/10000/500/476/5fbe63b2.jpg?impolicy=resizecrop&rw=455&ra=fit"
         },
         {
-            src: "https://www.shutterstock.com/image-photo/surreal-image-african-elephant-wearing-260nw-1365289022.jpg"
+            src: "https://images.trvl-media.com/hotels/1000000/20000/18900/18818/ef83f40a.jpg?impolicy=resizecrop&rw=455&ra=fit"
         },
         {
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+            src: "https://images.trvl-media.com/hotels/1000000/20000/18900/18818/ef83f40a.jpg?impolicy=resizecrop&rw=455&ra=fit"
+        },
+        {
+            src: "https://images.trvl-media.com/hotels/24000000/23600000/23592800/23592774/d4823f57.jpg?impolicy=resizecrop&rw=455&ra=fit"
+        },
+        {
+            src: "https://images.trvl-media.com/hotels/22000000/21740000/21736500/21736441/d03a232d.jpg?impolicy=resizecrop&rw=455&ra=fit"
+        },
+        {
+            src: "https://images.trvl-media.com/hotels/10000000/9070000/9062900/9062853/1a9beed4.jpg?impolicy=resizecrop&rw=455&ra=fit"
         }
     ]
    const handleOpen =(i) =>{
@@ -100,7 +111,9 @@ const Hotel = () => {
                                  <button>Reserve or Book now!</button>
                             </div>
                         </div>
-                </div>
+                    </div>
+                    <Guest />
+                    <FaqMusk />
                 <MailList />
                 <Footer />
             </div>

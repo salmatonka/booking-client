@@ -18,7 +18,7 @@
     right: 0;
     border: none;
     padding: 10px 20px;
-    background-color: #0071c2;
+    background-color: #193948;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -35,11 +35,11 @@
     gap: 10px;
 }
 .hoDistance{
-    color: #0071c2;
+    color: #193948;
     font-weight: 500;
 }
 .hoPriceHighLight{
-    color: #008009;
+    color: #6291a7;
     font-weight: 500;
 }
 .hoImages{
@@ -89,7 +89,7 @@
 .hoDetailsPrice>button{
    border: none;
    padding: 10px 20px;
-   background-color: #0071c2;
+   background-color: #193948;
    color: white;
    font-weight: bold;
    cursor: pointer;

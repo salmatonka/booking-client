@@ -1,0 +1,128 @@
+.guest{
+    width: 100%;
+    max-width: 1024px;  
+}
+#skills-section{
+    
+    height: auto;
+    padding: 80px 13%;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+.skill-menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+.skill-menu .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.skill-bar .bar span:hover{
+    /* background: linear-gradient(transparent,  #45f3ff, #45f3ff, #45f3ff ,transparent); */
+    background: #c0e6ba;
+}
+.skill-bar .info .percent{
+    font-weight: bold;
+}
+.skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: rgba(0,0,0,0.199);
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #013237;
+    /* background: linear-gradient(135deg,rgba(236,0,140,1)0%,
+   rgba(252,103,101,1)100% ); */
+    border-radius: 25px;
+
+}
+
+
+/* staff ... */
+.skill-bar .bar .staff{
+    width: 90%;
+    animation: staff 3s;
+}
+@keyframes staff{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+/* facilities ... */
+.skill-bar .bar .facilities{
+    width: 70%;
+    animation: facilities 3s;
+}
+@keyframes facilities{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+/* cleanliness... */
+.skill-bar .bar .cleanliness{
+    width: 90%;
+    animation: cleanliness 3s;
+}
+@keyframes cleanliness{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+/* comfort ... */
+.skill-bar .bar .comfort{
+    width: 70%;
+    animation: comfort 3s;
+}
+@keyframes comfort{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+/* value ... */
+.skill-bar .bar .value{
+    width: 80%;
+    animation: value 3s;
+}
+@keyframes value{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+/* free ... */
+.skill-bar .bar .free{
+    width: 70%;
+    animation: free 3s;
+}
+@keyframes free{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}

@@ -24,12 +24,16 @@
     font-weight: 500;
 }
 .fpRating>button{
-    background-color: #003580;
+    /* background-color: #003580; */
+
+    /* background-color: #6291a7; */
+    width: 40px;
     color: white;
     border:none;
     padding: 3px;
     margin-right: 10px;
     font-weight: bold;
+    border-radius: 8px;
 }
 .fpRating>span{
     font-size:14px;

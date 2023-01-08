@@ -1,0 +1,17 @@
+.proGuest{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.proGuest >h1{
+   font-size: 25px; 
+   font-weight: bold;
+}
+.proGuest >p{
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+.proGuestTitle{
+    font-size: 20px; 
+   font-weight: bold;
+   padding-bottom: 15px;
+}

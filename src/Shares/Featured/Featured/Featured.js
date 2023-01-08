@@ -2,29 +2,33 @@ import React from 'react';
 import './Featured.css'
 const Featured = () => {
     return (
-        <div className='featured'>
-           <div className="featuredItem">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="" />
+
+        <div>
+           {/* <h1 className="hTag">Top cities in Bangladesh</h1> */}
+            <div className='featured'>
+             <div className="featuredItem">
+              <img src="https://mediaim.expedia.com/destination/1/75a9818bbf91e1b3d53cbace6a17a264.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh" alt="" />
               <div className="featuredTitles">
-                <h1>Dublin</h1>
-                <h2>123 properties</h2>
+                <h1>Dhaka</h1>
+                <p>Dhaka has lots of attraction such as Baridhara Park and Bangladesh Army Stadium.</p>
               </div>
             </div>  
            <div className="featuredItem">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="" />
+              <img src="https://mediaim.expedia.com/destination/1/63efd72f00f0ae904144383f7aef5aae.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh" alt="" />
               <div className="featuredTitles">
-                <h1>Austin</h1>
-                <h2>523 properties</h2>
+                <h1>Sylhet</h1>
+                <p>Sylhet has lots of attractions such as Shrine of Hazrat Shah Jalal and Shahi Eidgah.</p>
               </div>
             </div>  
            <div className="featuredItem">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png" alt="" />
+              <img src="https://mediaim.expedia.com/destination/1/68dc4d3cdf5cf5ed486376ef85f4eba2.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh" alt="" />
               <div className="featuredTitles">
-                <h1>Reno</h1>
-                <h2>533 properties</h2>
+                <h1>Kamalganj</h1>
+                <p>Kamalganj has a lot of attractions such as Lawachara National Park and tea Museum.</p>
               </div>
             </div>  
              
+        </div>
         </div>
     );
 };

@@ -1,0 +1,47 @@
+.instant{
+    width: 100%;
+    
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+.instantItem{
+   position: relative;
+   color: #193948;
+   border-radius: 10px;
+   overflow: hidden;
+   height: 250px;
+}
+.instantTitles{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+.instantImg{
+    width: 100%;
+    object-fit: cover;
+}
+.instantTitles>h3{
+    font-size: 25px;
+}
+.instantTitles>p{
+    font-size: 18px;
+    font-weight: 150;
+}
+.instantTitles>button{
+    height: 40px;
+    width: 180px;
+    border:1px solid white;
+    padding-right: 4px;
+    color: white;
+    /* cursor: pointer; */
+    background-color: #6291a7;
+}
+.instantTitles>button:hover{
+    border: 1px solid white;
+    
+    background-color: #193948;
+}
