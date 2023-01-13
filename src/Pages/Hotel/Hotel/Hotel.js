@@ -10,11 +10,14 @@ import {BsFillArrowRightCircleFill} from 'react-icons/bs';
 import {AiFillCloseCircle} from 'react-icons/ai';
 import Guest from '../../../Shares/Guest/Guest/Guest';
 import FaqMusk from '../../../Shares/FaqMusk/FaqMusk/FaqMusk';
-// import { handler } from 'daisyui';
+
+
 const Hotel = () => {
     const [sliderNumber, setSliderNumber] = useState(0);
     const [open, setOpen] = useState(false);
     
+     
+
     const photos =[
         {
             src: "https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/2000000/1580000/1571900/1571851/5190220c_b.jpg"
@@ -67,7 +70,7 @@ const Hotel = () => {
             <Navber />
             <Header type="list"/>
             <div className="hotelContainer">
-                {
+                 {
                   open && <div className="slider">
                     <AiFillCloseCircle className='close' onClick={() =>setOpen(false)}/>
                     <BsFillArrowLeftCircleFill className='arrow' onClick={() =>handleMove("l")}/>
@@ -88,13 +91,14 @@ const Hotel = () => {
                     <span className="hoDistance">Excellent location - 500m from center</span>
                         <span className="hoPriceHighLight">Book a stay $114 at this property and get a free airport taxi</span>
                         <div className="hoImages">
-                            {
+                             {
                                photos.map((photo,i) =>(
                                 <div className="hoImgWrapper">
                                     <img onClick={()=>handleOpen(i)} src={photo.src} alt="" className='hoImg'/>
                                 </div>
                                )) 
-                            }
+                            } 
+                           
                         </div>
                         <div className="hoDetails">
                             <div className="hoDetailsTexts">
@@ -113,7 +117,7 @@ const Hotel = () => {
                         </div>
                     </div>
                     <Guest />
-                    <FaqMusk />
+                    {/* <FaqMusk /> */}
                 <MailList />
                 <Footer />
             </div>

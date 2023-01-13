@@ -12,8 +12,9 @@ const Instant = () => {
               <div className="instantTitles">
                <h3>Get instant discounts</h3>
                <p  className='pb-4 '>Simply sign into your Booking.com account and look for the blue Genius logo to save</p>
-               <Link to='/' className='pr-4 text-gray-50'><button>Register</button></Link>
-               <Link to='/'  className=' text-gray-50'><button>Login</button></Link>
+               <button><Link to='/register' className='pr-4 text-gray-50'>Register</Link></button>
+               
+               <button><Link to='/login'  className=' text-gray-50'>Login</Link></button>
               </div>
           </div>  
         </div>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from '../../../Shares/Header/Header/Header';
 import Navber from '../../../Shares/Navber/Navber/Navber';
 import {useLocation} from 'react-router-dom'
@@ -13,6 +13,12 @@ const List = () => {
      const [openDate,setOpenDate] = useState(false);
      const [options,setOptions] = useState(location.state.options);
 
+     const [bookings,setBookings] = useState([]);
+        useEffect(() =>{
+          fetch('http://localhost:5000/bookings')
+          .then(res => res.json())
+          .then(data => setBookings(data))
+        },[])
 
 
     return (
@@ -75,6 +81,7 @@ const List = () => {
                     <button>Search</button>
                     </div>
                     <div className="listResult">
+                        {/* <SearchItem />
                         <SearchItem />
                         <SearchItem />
                         <SearchItem />
@@ -82,8 +89,13 @@ const List = () => {
                         <SearchItem />
                         <SearchItem />
                         <SearchItem />
-                        <SearchItem />
-                        <SearchItem />
+                        <SearchItem /> */}
+                        {
+                            bookings.map(booking => <SearchItem
+                            key={booking}
+                            booking={booking}
+                            ></SearchItem>)
+                        }
                     </div>
                 </div>
             </div>

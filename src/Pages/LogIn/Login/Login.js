@@ -7,7 +7,7 @@ const Login = () => {
 			<Navber />
             <section className=" dark:bg-gray-800 dark:text-gray-100">
                <div>
-                   <img src="https://cdn0.weddingwire.in/vendor/0854/3_2/960/jpg/weddingphotographer-snapclickers-bride-2_15_410854-165365380210914.jpeg" alt="" className="object-cover w-full h-60  xl:col-span-3 dark:bg-gray-500" />
+                   <img src="https://ttg.com.bd//uploads/widget/15631014052911987_27_meaning-of-travellingjpg.jpg" alt="" className="object-cover w-full h-40  xl:col-span-3 dark:bg-gray-500" />
                </div>
 
 	           <div className="px-40 mx-auto text-center ">
@@ -21,14 +21,14 @@ const Login = () => {
 				            
 				            <div>
 					           <label for="email" className="text-sm sr-only">Email address</label>
-					           <input name='email' id="email" type="email" placeholder="Email address" className="w-80 rounded-md input input-bordered focus:ring focus:ring-violet-400 border-gray-700" />
+					           <input name='email' id="email" type="email" placeholder="Email address" className="w-80 rounded-md input input-bordered focus:ring focus:ring-violet-400 border-gray-700" required/>
 				           </div>
 				            <div>
 					           <label for="password" className="text-sm sr-only">Email address</label>
-					           <input name='password' id="password" type="password" placeholder="Password" className="w-80 rounded-md input input-bordered focus:ring focus:ring-violet-400 border-gray-700" />
+					           <input name='password' id="password" type="password" placeholder="Password" className="w-80 rounded-md input input-bordered focus:ring focus:ring-violet-400 border-gray-700" required/>
 				           </div>
 						   <div>
-				               <input id="password" value="LogIn" type="submit"  className="w-80 rounded-md input input-bordered focus:ring bg-gray-700 focus:ring-violet-400 border-gray-700 text-gray-100" />
+				               <input id="password" value="LogIn" type="submit"  className="w-80 rounded-md input input-bordered focus:ring bg-gray-700 focus:ring-violet-400 border-gray-700 text-gray-100" required/>
 			               </div>
 			           </form>
 		          </div>

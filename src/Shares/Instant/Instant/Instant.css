@@ -35,13 +35,12 @@
     height: 40px;
     width: 180px;
     border:1px solid white;
-    padding-right: 4px;
-    color: white;
-    /* cursor: pointer; */
-    background-color: #6291a7;
+    color: white; 
+    background-color: #193948;
+    margin-right: 6px;
 }
 .instantTitles>button:hover{
     border: 1px solid white;
+    background-color: #6291a7;
     
-    background-color: #193948;
 }
